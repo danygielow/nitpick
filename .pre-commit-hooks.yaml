@@ -17,3 +17,9 @@
   description: "Only check configuration files (TOML/INI/JSON/etc.) and print the violations, according to the Nitpick style"
   entry: nitpick check
   language: python
+
+- id: nitpick-cli
+  name: "nitpick cli (command has to be given via args)"
+  description: "Nitpick without command (has to be given via args)"
+  entry: nitpick
+  language: python
